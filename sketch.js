@@ -1,7 +1,7 @@
 let s
 let testatroid
 function setup() {
-  createCanvas(400, 400)
+  createCanvas(windowWidth, windowHeight)
   s = new ship (200, 200)
    testatroid = new Asteroid(200, 200, 0, 0)
 }
